@@ -1,3 +1,3 @@
 FROM clickhouse/clickhouse-server:22.6
 
-ADD config.xml /etc/clickhouse-server/config.xml
+ADD console_logging.xml /etc/clickhouse-server/config.d/console_logging.xml
