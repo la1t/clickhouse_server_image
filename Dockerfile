@@ -1,3 +1,3 @@
-FROM yandex/clickhouse-server:21.3.20
+FROM clickhouse/clickhouse-server:22.6
 
 ADD config.xml /etc/clickhouse-server/config.xml
